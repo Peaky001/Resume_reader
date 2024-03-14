@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "resume-reader"
+version = "0.1.0"
+description = ""
+authors = ["Peaky_001 <shreyashdeshwal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypdf3 = "^1.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
